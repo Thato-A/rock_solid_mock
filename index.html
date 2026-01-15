@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Solid Christian Church</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
@@ -36,95 +44,161 @@
         </div>
       </section>
 
-      <section class="intro">
-        <div class="intro__container">
-          <p class="intro__subtitle">WELCOME TO ROCK SOLID</p>
-          <div class="intro__paragraphs">
-            <p class="intro__paragraph-left">
-              Following the Holy Spirit, we exist to create a movement of
-              disciple-making disciples
-            </p>
-            <p class="intro__paragrph-right">
-              Rock Solid Church is committed to creating a movement of
-              disciple-making disciples-men and women who reflect the diversity
-              of our community, lived out in authentic unity.
-            </p>
+      <section class="intro bg-white py-5 py-lg-5">
+        <div class="container intro__container px-4 px-md-5 px-xxl-5">
+          <p
+            class="intro__subtitle text-uppercase fw-semibold text-secondary mb-3"
+          >
+            Welcome to Rock Solid
+          </p>
+          <div class="intro__paragraphs row g-5 mb-4">
+            <div class="col-md-6">
+              <p class="intro__paragraph-left">
+                Following the Holy Spirit, we exist to create a movement of
+                disciple-making disciples
+              </p>
+            </div>
+
+            <div class="col-md-6">
+              <p class="intro__paragraph-right">
+                Rock Solid Church is committed to creating a movement of
+                disciple-making disciples-men and women who reflect the
+                diversity of our community, lived out in authentic unity.
+              </p>
+            </div>
           </div>
-          <img
-            src="./images/intro-image.png"
-            alt="picture of Jesus"
-            class="intro__image"
-          />
+
+          <div class="intro__image-wrapper">
+            <img
+              src="./images/intro-image.png"
+              alt="picture of Jesus"
+              class="img-fluid intro__image"
+            />
+          </div>
         </div>
       </section>
 
-      <section class="mission">
-        <div class="mission__container">
-          <h2 class="mission__title">Our Mission is Simple</h2>
-          <p class="mission__paragraph">
+      <section class="mission position-relative text-white py-5">
+        <div class="mission__container container mt-5 px-4 px-md-5">
+          <h2 class="mission__title fw-bold text-center mb-3">
+            Our Mission is Simple
+          </h2>
+          <p class="mission__paragraph text-center mb-5">
             The gospel is the good news of Jesus: That Jesus lived a sinless
             life in my place, died the death that
           </p>
-          <ul class="card-list">
-            <li class="card">
-              <img src="" alt="" class="card__image" />
-              <h3 class="card__title">Watch a Message</h3>
-              <p class="card__paragraph">
+
+          <ul
+            class="card-list list-unstyled d-flex flex-column flex-md-row justify-content-center gap-4 mb-5 align-items-stretch"
+          >
+            <li
+              class="card bg-white rounded-3 p-4 flex-fill text-dark text-center shadow-sm d-flex flex-column"
+            >
+              <img
+                src="./images/watch-img.svg"
+                alt=""
+                class="card__image mb-3 mx-auto"
+              />
+              <h3 class="card__title fw-semibold mb-2">Watch a Message</h3>
+              <p class="card__paragraph mb-3 text-orange flex-grow-1">
                 Catch up on the latest and past weekend service message anytime,
                 anywhere
               </p>
-              <p class="card__secondary-paragraph">Catch Our Latest Message</p>
+              <p
+                class="card__secondary-paragraph text-orange fw-semibold mt-auto"
+              >
+                Catch Our Latest Message
+              </p>
             </li>
 
-            <li class="card">
-              <img src="" alt="" class="card__image" />
-              <h3 class="card__title">Find a location</h3>
-              <p class="card__paragraph">
+            <li
+              class="card bg-white rounded-3 p-4 flex-fill text-dark text-center shadow-sm"
+            >
+              <img
+                src="./images/location-img.svg"
+                alt=""
+                class="card__image mb-3 mx-auto"
+                style="height: 48px"
+              />
+              <h3 class="card__title fw-semibold mb-2">Find a Location</h3>
+              <p class="card__paragraph mb-3">
                 Easily find a campus near you, Join us in person and get
                 connected.
               </p>
-              <p class="card__secondary-paragraph">Search Our Campuses</p>
+              <p class="card__secondary-paragraph text-primary fw-semibold">
+                Search Our Campuses
+              </p>
             </li>
 
-            <li class="card">
-              <img src="" alt="" class="card__image" />
-              <h3 class="card__title">Get Connected</h3>
-              <p class="card__paragraph">
-                Stay connected and in the loop-sign up for updates, events, and
+            <li
+              class="card bg-white rounded-3 p-4 flex-fill text-dark text-center shadow-sm"
+            >
+              <img
+                src="./images/contact-img.svg"
+                alt=""
+                class="card__image mb-3 mx-auto"
+                style="height: 48px"
+              />
+              <h3 class="card__title fw-semibold mb-2">Get Connected</h3>
+              <p class="card__paragraph mb-3">
+                Stay connected and in the loop—sign up for updates, events, and
                 ways to get involved.
               </p>
-              <p class="card__secondary-paragraph">Contact Us</p>
+              <p class="card__secondary-paragraph text-primary fw-semibold">
+                Contact Us
+              </p>
             </li>
           </ul>
 
-          <p>GOSPEL</p>
-          <div class="mission__paragraphs">
-            <p class="mission__paragraph-left">
+          <p class="text-uppercase fw-semibold small mb-5 pt-5">GOSPEL</p>
+
+          <div
+            class="mission__paragraphs d-flex flex-column flex-md-row gap-4 mb-5"
+          >
+            <p class="mission__paragraph-left flex-fill fw-bold fs-5">
               The gospel is what should characterize us. It should be our
               identity: We are a gospel people.
             </p>
-            <p class="mission__paragraph-right">
+            <p class="mission__paragraph-right flex-fill fs-6">
               The gospel is the good news of Jesus: That Jesus lived a sinless
               life in my place, died the death that I deserve, and rose to life
               again. And whoever believes in him has eternal life.
             </p>
           </div>
-          <img src="./images/mission-image.png" alt="" class="mission__image" />
+
+          <div class="mission__image-wrapper rounded-4 overflow-hidden mt-5">
+            <img
+              src="./images/mission-image.png"
+              alt=""
+              class="mission__image img-fluid w-100 rounded-4 shadow"
+            />
+          </div>
         </div>
+
+        <div
+          class="mission__overlay position-absolute top-0 start-0 w-100 h-100"
+          aria-hidden="true"
+        ></div>
       </section>
 
-      <section class="visit">
-        <div class="visit__container">
-          <h2 class="visit__title">
-            ROCK SOLID CHURCH CONTINUES TO HOLD OUT LOVE AND HOPE TO THE ENTIRE
-            WORLD.
+      <section class="visit py-5 text-center bg-light">
+        <div class="visit__container container px-4 px-md-5">
+          <h2 class="visit__title fw-bold mb-4 m-auto">
+            ROCK SOLID CHURCH CONTINUES TO HOLD OUT
+            <span class="text-danger">LOVE</span>
+            <span class="text-muted">AND HOPE TO</span>
+            <span class="text-secondary fw-semibold">THE ENTIRE WORLD.</span>
           </h2>
-          <button class="visit__btn">Plan a Visit</button>
+          <button
+            class="btn btn-dark visit__btn px-4 py-2 rounded-2 border-none"
+          >
+            Plan a Visit
+          </button>
         </div>
       </section>
 
-      <section class="volunteer">
-        <div class="volunteer__container">
+      <section class="volunteer py-5">
+        <div class="container text-center volunteer__container">
           <img
             src="./images/hands-logo.png"
             alt="Shaking hands"
@@ -197,8 +271,8 @@
         </div>
       </section>
 
-      <section class="stories">
-        <div class="stories__container">
+      <section class="stories py-5">
+        <div class="container stories__container">
           <div class="stories__info">
             <h3 class="stories__title">Saved Lives Are Changed Lives</h3>
             <p class="stories__paragraph">
@@ -254,10 +328,45 @@
           </p>
           <p class="footer__number">(000) 000-0000</p>
           <div class="footer__socials">
-            <img src="./images/facebook-dark.svg" alt="" class="facebook" />
-            <img src="./images/x-dark.svg" alt="" class="x" />
-            <img src="./images/instagram-dark.svg" alt="" class="instagram" />
-            <img src="./images/youtube-dark.svg" alt="" class="youtube" />
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit us on Facebook"
+              class="footer__social-link"
+            >
+              <img src="./images/facebook-dark.svg" alt="" />
+            </a>
+
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit us on X"
+              class="footer__social-link"
+            >
+              <img src="./images/x-dark.svg" alt="" />
+            </a>
+
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit us on Instagram"
+              class="footer__social-link"
+            >
+              <img src="./images/instagram-dark.svg" alt="" />
+            </a>
+
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit us on YouTube"
+              class="footer__social-link"
+            >
+              <img src="./images/youtube-dark.svg" alt="" />
+            </a>
           </div>
         </div>
 
@@ -266,12 +375,43 @@
             <button>Plan A Visit</button>
             <button>Log In</button>
           </div>
-          <div class="footer__links"></div>
+          <div class="footer__links">
+            <nav class="footer__nav" aria-label="Footer quick links">
+              <h4 class="footer__heading">Quick Links</h4>
+              <ul class="footer__list">
+                <li><a href="#">About Rock Solid</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Ministries</a></li>
+                <li><a href="#">Serving</a></li>
+              </ul>
+            </nav>
+
+            <nav class="footer__nav" aria-label="Footer contact links">
+              <h4 class="footer__heading">Get In Touch</h4>
+              <ul class="footer__list">
+                <li><a href="#">Plan A Visit Request</a></li>
+                <li><a href="#">Prayer</a></li>
+                <li><a href="#">Get Help</a></li>
+                <li><a href="#">Job Openings</a></li>
+                <li><a href="#">Report an Issue</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
+        <p class="footer__copyright">
+          &copy; <span id="year"></span>
+          <span class="footer__separator">|</span>
+          <a href="#">Terms of Service</a>
+          <span class="footer__separator">|</span>
+          <a href="#">Privacy Policy</a>
+        </p>
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script/main.js"></script>
+    <script src="script/main.js" defer></script>
   </body>
 </html>

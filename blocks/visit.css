@@ -1,0 +1,23 @@
+.visit {
+  background-color: #f7f7f7; /* subtle light gray background */
+  font-family: "Arial", sans-serif;
+}
+
+.visit__title {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  width: 500px;
+}
+
+.visit__btn {
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.visit__btn:hover {
+  background-color: #c0392b; /* slightly brighter red on hover */
+  color: white;
+}

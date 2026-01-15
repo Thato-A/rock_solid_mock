@@ -1,0 +1,31 @@
+.volunteer__title {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.volunteer__paragraph {
+  max-width: 600px;
+  margin: 0.5rem auto 2rem;
+  color: #666;
+}
+
+/* Swiper cards */
+.volunteer__card {
+  text-align: center;
+}
+
+.volunteer__card figure {
+  margin: 0;
+}
+
+.volunteer__card img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.volunteer__card figcaption {
+  margin-top: 0.75rem;
+  font-weight: 600;
+  color: #222;
+}

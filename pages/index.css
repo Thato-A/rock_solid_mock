@@ -2,6 +2,10 @@
 
 @import url("../blocks/nav.css");
 @import url("../blocks/hero.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/mission.css");
+@import url("../blocks/visit.css");
+@import url("../blocks/volunteer.css");
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

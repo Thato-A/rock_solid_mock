@@ -1,0 +1,33 @@
+.mission {
+  background-image: url("../images/mission-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+
+.mission__container {
+  position: relative; /* required for z-index */
+  z-index: 2;
+  padding-bottom: 6rem; /* pushes content down for cut-off image effect */
+  overflow: hidden; /* hides bottom of image */
+}
+
+.mission__overlay {
+  background-color: rgba(244, 81, 16, 0.55); /* slightly transparent orange */
+  z-index: 1; /* behind content but above background */
+  pointer-events: none;
+}
+
+.card__image {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 1rem; /* center and add spacing below */
+}
+
+.mission__image-wrapper {
+  margin-top: -3rem; /* pull image up so bottom is cut off */
+}
