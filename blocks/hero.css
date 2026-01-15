@@ -1,0 +1,14 @@
+.hero {
+  /*background:url(hero-background) */
+  margin: 24px;
+  border-radius: 24px;
+  padding: 100px 0;
+}
+
+.hero__title {
+  margin-bottom: 16px;
+}
+
+.hero__subtitle {
+  max-width: 480px;
+}
