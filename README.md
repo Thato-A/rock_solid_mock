@@ -1,1 +1,1 @@
-# rock_solid_mock
+# Rock Solid Christian Church
