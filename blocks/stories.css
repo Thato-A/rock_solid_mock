@@ -37,3 +37,12 @@
 .stories__card-title:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  .stories__title,
+  .stories__paragraph,
+  .stories__btn {
+    text-align: center;
+    margin-inline: auto;
+  }
+}

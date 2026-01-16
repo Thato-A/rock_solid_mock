@@ -19,3 +19,12 @@
   background-color: #c0392b;
   color: white;
 }
+
+@media (max-width: 990px) {
+  .visit__title {
+    font-size: 1.35rem;
+    text-align: center;
+    margin-inline: auto;
+    width: 100%;
+  }
+}

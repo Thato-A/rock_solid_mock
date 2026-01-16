@@ -52,7 +52,6 @@
 .volunteer__card figcaption::after {
   content: " >";
   opacity: 0;
-  transform: translateX(-4px);
   transition: opacity 0.3s ease, transform 0.3s ease;
   color: #f97316;
 }
@@ -63,7 +62,6 @@
 
 .volunteer__card:hover figcaption::after {
   opacity: 1;
-  transform: translateX(2px);
 }
 
 .swiper-button-prev,

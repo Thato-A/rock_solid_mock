@@ -47,8 +47,7 @@
   text-decoration: none;
 }
 
-.footer__copyright a,
-.footer__copyright a:visited {
+.footer__copyright a {
   color: #f97316 !important;
   text-decoration: underline;
   font-weight: 500;

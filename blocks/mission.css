@@ -30,3 +30,27 @@
 .mission__image-wrapper {
   height: 420px;
 }
+
+@media (max-width: 990px) {
+  .card-list {
+    align-items: center;
+  }
+
+  .card-list .card {
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .mission__title,
+  .mission__paragraph,
+  .mission__paragraphs {
+    text-align: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .card {
+    width: 250px;
+  }
+}
