@@ -11,8 +11,11 @@
 
 .stories__paragraph {
   color: #d1c7c2;
-  margin: 1rem 0;
   max-width: 263px;
+}
+
+.stories__text-wrap {
+  max-width: 320px;
 }
 
 .stories__btn {
@@ -28,7 +31,6 @@
 
 .stories__card-title {
   cursor: pointer;
-  display: inline-block;
   width: 170px;
 }
 

@@ -24,7 +24,6 @@
         <div
           class="container-fluid px-3 px-md-4 px-lg-5 d-flex align-items-center"
         >
-          <!-- Brand -->
           <a
             href="#"
             class="navbar__brand d-flex align-items-center gap-2 text-decoration-none"
@@ -36,12 +35,10 @@
             />
           </a>
 
-          <!-- CENTER NAV PILL -->
           <div class="mx-auto">
             <div
               class="navbar__pill d-flex align-items-center gap-3 px-4 py-1 pe-2 rounded-pill"
             >
-              <!-- Links -->
               <a class="navbar__link" href="#">Plan A Visit</a>
               <a class="navbar__link" href="#">Who We Are</a>
               <a class="navbar__link" href="#">Connect</a>
@@ -49,18 +46,22 @@
               <a class="navbar__link" href="#">Events</a>
               <a class="navbar__link" href="#">Media</a>
 
-              <!-- Give Online -->
-              <a href="#" class="navbar__give rounded-pill px-3 py-2">
+              <a
+                href="#"
+                class="navbar__give rounded-pill px-3 py-2 fw-semibold"
+              >
                 Give Online
               </a>
 
-              <!-- Menu Button -->
               <button
                 type="button"
-                class="navbar__menu-btn btn btn-light btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                class="navbar__menu-btn btn btn-light btn-sm rounded-circle d-flex align-items-center justify-content-center p-0"
                 aria-label="Open menu"
               >
-                <span class="navbar__burger" aria-hidden="true">
+                <span
+                  class="navbar__burger d-flex flex-column justify-content-between"
+                  aria-hidden="true"
+                >
                   <span></span>
                   <span></span>
                   <span></span>
@@ -69,7 +70,6 @@
             </div>
           </div>
 
-          <!-- Create Account -->
           <a
             href="#"
             class="navbar__account d-flex align-items-center gap-2 text-white text-decoration-none"
@@ -101,7 +101,7 @@
                   We’re Glad You’re Here
                 </h1>
 
-                <div class="mx-auto" style="max-width: 460px">
+                <div class="mx-auto hero__text-wrap">
                   <p
                     class="hero__subtitle fs-5 mb-4 text-center reveal reveal--top reveal--delay-1"
                   >
@@ -131,12 +131,43 @@
           </div>
         </div>
 
-        <!-- Countdown -->
         <div
           class="hero__countdown position-absolute bottom-0 start-50 translate-middle-x text-center text-white pb-4"
         >
-          <p class="mb-1 small opacity-75">Next Service Starts In</p>
-          <span class="fw-semibold">00:00:00</span>
+          <p class="mb-1 fw-semibold opacity-75">Next Service Starts In</p>
+          <span class="fw-bold fs-5 mb-1">00:00:00</span>
+        </div>
+
+        <div
+          class="hero__social position-absolute bottom-0 end-0 pb-4 pe-4 d-flex gap-3"
+        >
+          <a href="#" aria-label="Facebook">
+            <img
+              src="./images/facebook-light.svg"
+              alt="Facebook"
+              class="hero__social-icon"
+            />
+          </a>
+
+          <a href="#" aria-label="X">
+            <img src="./images/x-light.svg" alt="X" class="hero__social-icon" />
+          </a>
+
+          <a href="#" aria-label="Instagram">
+            <img
+              src="./images/instagram-light.svg"
+              alt="Instagram"
+              class="hero__social-icon"
+            />
+          </a>
+
+          <a href="#" aria-label="YouTube">
+            <img
+              src="./images/youtube-light.svg"
+              alt="YouTube"
+              class="hero__social-icon"
+            />
+          </a>
         </div>
       </section>
 
@@ -149,14 +180,18 @@
           </p>
           <div class="intro__paragraphs row g-5 mb-4">
             <div class="col-md-6 reveal reveal--left reveal--delay-1">
-              <p class="intro__paragraph-left">
+              <p
+                class="intro__paragraph-left w-100 fs-3 fw-semibold lh-sm d-block"
+              >
                 Following the Holy Spirit, we exist to create a movement of
                 disciple-making disciples
               </p>
             </div>
 
             <div class="col-md-6 reveal reveal--right reveal--delay-2">
-              <p class="intro__paragraph-right">
+              <p
+                class="intro__paragraph-right w-100 fs-6 lh-lg d-block ms-auto"
+              >
                 Rock Solid Church is committed to creating a movement of
                 disciple-making disciples-men and women who reflect the
                 diversity of our community, lived out in authentic unity.
@@ -179,7 +214,9 @@
       <section
         class="mission position-relative text-white pt-3 pb-0 rounded-4 overflow-hidden reveal"
       >
-        <div class="mission__container container mt-5 px-4 px-md-5">
+        <div
+          class="mission__container container mt-5 px-4 px-md-5 position-relative"
+        >
           <h2 class="mission__title fw-bold text-center mb-3">
             Our Mission is Simple
           </h2>
@@ -191,7 +228,6 @@
           <ul
             class="card-list list-unstyled d-flex flex-column flex-md-row justify-content-center gap-4 mb-5 align-items-stretch"
           >
-            <!-- CARD 1 -->
             <li
               class="card bg-white rounded-3 p-4 text-dark text-center shadow-sm d-flex flex-column flex-fill"
               style="max-width: 360px"
@@ -208,15 +244,13 @@
                 anywhere.
               </p>
 
-              <p class="card__paragraph fw-semibold text-orange mt-auto">
+              <p class="card__paragraph fw-semibold mt-auto">
                 Catch Our Latest Message
               </p>
             </li>
 
-            <!-- CARD 2 -->
             <li
               class="card bg-white rounded-3 p-4 text-dark text-center shadow-sm d-flex flex-column flex-fill"
-              style="max-width: 360px"
             >
               <img
                 src="./images/location-img.svg"
@@ -230,15 +264,13 @@
                 connected.
               </p>
 
-              <p class="card__paragraph fw-semibold text-orange mt-auto">
+              <p class="card__paragraph fw-semibold mt-auto">
                 Search Our Campuses
               </p>
             </li>
 
-            <!-- CARD 3 -->
             <li
               class="card bg-white rounded-3 p-4 text-dark text-center shadow-sm d-flex flex-column flex-fill"
-              style="max-width: 360px"
             >
               <img
                 src="./images/contact-img.svg"
@@ -252,9 +284,7 @@
                 ways to get involved.
               </p>
 
-              <p class="card__paragraph fw-semibold text-orange mt-auto">
-                Contact Us
-              </p>
+              <p class="card__paragraph fw-semibold mt-auto">Contact Us</p>
             </li>
           </ul>
 
@@ -263,15 +293,15 @@
           <div
             class="mission__paragraphs row justify-content-between align-items-start mt-5 gx-5"
           >
-            <!-- LEFT -->
-            <div class="col-12 col-md-5 reveal reveal--left reveal--delay-1">
+            <div
+              class="col-12 col-md-5 pb-3 reveal reveal--left reveal--delay-1"
+            >
               <p class="fw-bold fs-5 mb-0">
                 The gospel is what should characterize us. It should be our
                 identity: We are a gospel people.
               </p>
             </div>
 
-            <!-- RIGHT -->
             <div class="col-12 col-md-4 reveal reveal--right reveal--delay-2">
               <p class="fs-6 mb-0 text-white-75">
                 The gospel is the good news of Jesus: That Jesus lived a sinless
@@ -300,14 +330,14 @@
 
       <section class="visit py-5 text-center bg-light reveal">
         <div class="visit__container container px-4 px-md-5">
-          <h2 class="visit__title fw-bold mb-4 m-auto">
+          <h2 class="visit__title fw-bold mb-4 m-auto fs-3">
             ROCK SOLID CHURCH CONTINUES TO HOLD OUT
             <span class="text-danger">LOVE</span>
             <span class="text-muted">AND HOPE TO</span>
             <span class="text-secondary fw-semibold">THE ENTIRE WORLD.</span>
           </h2>
           <button
-            class="visit__btn visit__btn-dark visit__btn px-4 py-2 rounded-2 border-none"
+            class="visit__btn visit__btn-dark px-4 py-2 rounded-2 fw-semibold"
           >
             Plan a Visit
           </button>
@@ -321,8 +351,10 @@
             alt="Shaking hands"
             class="visit__image"
           />
-          <h2 class="volunteer__title">Find a Place to Volunteer</h2>
-          <p class="volunteer__paragraph">
+          <h2 class="volunteer__title fw-bold mt-3">
+            Find a Place to Volunteer
+          </h2>
+          <p class="volunteer__paragraph mt-2 mb-4 mx-auto">
             Explore our ministries-find your place, grow in faith, and connect
             with a vibrant community!
           </p>
@@ -330,8 +362,12 @@
           <div
             class="volunteer__controls d-flex justify-content-end gap-2 mb-3"
           >
-            <div class="swiper-button-prev volunteer__nav"></div>
-            <div class="swiper-button-next volunteer__nav"></div>
+            <div
+              class="swiper-button-prev volunteer__nav rounded-circle position-static"
+            ></div>
+            <div
+              class="swiper-button-next volunteer__nav rounded-circle position-static"
+            ></div>
           </div>
 
           <div class="swiper volunteer__swiper px-2 px-lg-1">
@@ -361,17 +397,11 @@
               </div>
 
               <div class="swiper-slide volunteer__card">
-                <figure class="volunteer__figure h-100">
+                <figure>
                   <div class="volunteer__image-wrapper">
-                    <img
-                      src="./images/worship.png"
-                      alt="Worship ministry"
-                      class="w-100 h-100 object-fit-cover"
-                    />
+                    <img src="./images/worship.png" alt="Worship ministry" />
                   </div>
-                  <figcaption class="volunteer__title text-center mt-3">
-                    Worship
-                  </figcaption>
+                  <figcaption>Worship</figcaption>
                 </figure>
               </div>
 
@@ -407,13 +437,9 @@
         <div class="container px-3 px-lg-4">
           <div class="rounded-4 py-5">
             <div class="row gy-5">
-              <!-- LEFT: Text content -->
               <div class="col-12 col-lg-4 mt-lg-5 pt-3">
                 <header class="stories__info mx-auto reveal reveal--left">
-                  <h3
-                    class="stories__title fw-bold mb-3"
-                    style="max-width: 320px"
-                  >
+                  <h3 class="stories__title stories__text-wrap fw-bold mb-3">
                     Saved Lives Are Changed Lives.
                   </h3>
                   <p class="stories__paragraph mb-5">
@@ -421,19 +447,17 @@
                     difference in our city.
                   </p>
                   <button
-                    class="stories__btn btn-warning fw-semibold px-4 py-2 rounded-3"
+                    class="stories__btn btn-warning fw-semibold px-4 py-2 rounded-3 d-block mx-auto"
                   >
                     Share Your Story
                   </button>
                 </header>
               </div>
 
-              <!-- RIGHT: Stories grid -->
               <div class="col-12 col-lg-8 d-flex">
                 <ul
                   class="stories__list row gx-4 gy-4 list-unstyled m-0 flex-fill align-items-stretch"
                 >
-                  <!-- Large image -->
                   <li class="col-12 col-md-8 d-flex">
                     <figure
                       class="stories__img-card d-flex flex-column flex-fill reveal reveal--right reveal--delay-1"
@@ -443,13 +467,14 @@
                         alt="Picture of a man smiling"
                         class="img-fluid w-100 h-100 object-fit-cover rounded-4"
                       />
-                      <figcaption class="stories__card-title mt-2 fw-semibold">
+                      <figcaption
+                        class="stories__card-title mt-2 fw-semibold d-inline-block"
+                      >
                         Joshua's Road To Peace
                       </figcaption>
                     </figure>
                   </li>
 
-                  <!-- Two stacked smaller images -->
                   <li class="col-12 col-md-4 d-flex flex-column gap-2">
                     <figure
                       class="stories__img-card-small pb-2 reveal reveal--right reveal--delay-2"
@@ -488,7 +513,7 @@
     <footer class="footer bg-light py-5">
       <div class="footer__container container px-3 px-md-4 px-lg-5">
         <div class="row gy-4">
-          <div class="col-lg-6">
+          <div class="col-lg-6 pt-lg-4">
             <div class="footer__info">
               <img
                 src="./images/logo-grey.svg"
@@ -510,7 +535,7 @@
                   aria-label="Visit us on Facebook"
                   class="footer__social-link"
                 >
-                  <img src="./images/facebook-dark.svg" alt="" />
+                  <img src="./images/facebook-dark.svg" alt="facebook" />
                 </a>
 
                 <a
@@ -520,7 +545,7 @@
                   aria-label="Visit us on X"
                   class="footer__social-link"
                 >
-                  <img src="./images/x-dark.svg" alt="" />
+                  <img src="./images/x-dark.svg" alt="x logo" />
                 </a>
 
                 <a
@@ -530,7 +555,7 @@
                   aria-label="Visit us on Instagram"
                   class="footer__social-link"
                 >
-                  <img src="./images/instagram-dark.svg" alt="" />
+                  <img src="./images/instagram-dark.svg" alt="instagram logo" />
                 </a>
 
                 <a
@@ -540,7 +565,7 @@
                   aria-label="Visit us on YouTube"
                   class="footer__social-link"
                 >
-                  <img src="./images/youtube-dark.svg" alt="" />
+                  <img src="./images/youtube-dark.svg" alt="youtube logo" />
                 </a>
               </div>
             </div>
@@ -549,20 +574,20 @@
           <div class="col-lg-6">
             <div class="footer__info d-flex flex-column align-items-lg-end">
               <div class="footer__btns d-flex gap-2 mb-4">
-                <button class="btn btn-dark rounded-pill px-4">
+                <button class="btn btn-dark rounded-3 px-3 py-2">
                   Plan A Visit
                 </button>
-                <button class="btn btn-outline-secondary rounded-pill px-4">
+                <button class="btn btn-outline-secondary rounded-3 px-3 py-2">
                   Log In
                 </button>
               </div>
 
-              <div class="footer__links row w-100">
+              <div class="footer__links row gx-4 col-lg-8 ms-lg-auto">
                 <nav
                   class="footer__nav col-md-6"
                   aria-label="Footer quick links"
                 >
-                  <h4 class="footer__heading mb-3">Quick Links</h4>
+                  <h4 class="footer__heading mb-3 fw-bold">Quick Links</h4>
                   <ul class="footer__list list-unstyled">
                     <li><a href="#">About Rock Solid</a></li>
                     <li><a href="#">Locations</a></li>
@@ -577,7 +602,7 @@
                   class="footer__nav col-md-6"
                   aria-label="Footer contact links"
                 >
-                  <h4 class="footer__heading mb-3">Get In Touch</h4>
+                  <h4 class="footer__heading mb-3 fw-bold">Get In Touch</h4>
                   <ul class="footer__list list-unstyled">
                     <li><a href="#">Plan A Visit Request</a></li>
                     <li><a href="#">Prayer</a></li>

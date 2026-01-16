@@ -3,40 +3,30 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow: hidden;
-  position: relative;
 }
 
 .mission__container {
-  position: relative; /* required for z-index */
   z-index: 2;
-  overflow: hidden; /* hides bottom of image */
 }
 
 .mission__overlay {
-  background-color: rgba(244, 81, 16, 0.55); /* slightly transparent orange */
-  z-index: 1; /* behind content but above background */
+  background-color: rgba(237, 75, 30, 0.75);
   pointer-events: none;
+}
+
+.card {
+  width: 300px;
 }
 
 .card__image {
   height: 48px;
-  width: auto;
 }
 
 .card__paragraph {
   cursor: pointer;
-}
-
-.text-orange {
   color: #f45110;
 }
 
 .mission__image-wrapper {
-  height: 420px; /* controls how much gets cropped */
-}
-
-.mission__image {
-  object-fit: cover;
-  object-position: center top; /* keeps top visible, cuts bottom */
+  height: 420px;
 }

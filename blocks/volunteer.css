@@ -1,25 +1,15 @@
-.volunteer__title {
-  font-weight: 700;
-  margin-top: 1rem;
-}
-
 .volunteer__paragraph {
   max-width: 600px;
-  margin: 0.5rem auto 2rem;
   color: #666;
 }
 
-.volunteer__controls .swiper-button-prev,
-.volunteer__controls .swiper-button-next {
-  position: static;
+.volunteer__nav {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background: #f3f3f3;
+  background-color: #f3f3f3;
 }
 
-.volunteer__controls .swiper-button-prev::after,
-.volunteer__controls .swiper-button-next::after {
+.volunteer__nav::after {
   font-size: 16px;
 }
 
@@ -40,6 +30,7 @@
 
 .volunteer__card img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
 }

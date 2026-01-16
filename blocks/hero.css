@@ -3,8 +3,11 @@
   color: #fff;
 }
 
+.hero__text-wrap {
+  max-width: 460px;
+}
+
 .hero__btn {
-  font-weight: 500;
   transition: background-color 0.25s ease, transform 0.2s ease;
 }
 
@@ -30,5 +33,18 @@
 }
 
 .hero__btn:hover {
+  transform: translateY(-2px);
+}
+
+.hero__social-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  opacity: 0.75;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.hero__social-icon:hover {
+  opacity: 1;
   transform: translateY(-2px);
 }

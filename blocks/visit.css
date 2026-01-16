@@ -4,15 +4,10 @@
 }
 
 .visit__title {
-  font-size: 1.75rem;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   width: 500px;
 }
 
 .visit__btn {
-  font-weight: 600;
-  font-size: 0.9rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
   background: rgba(46, 35, 32, 1);
