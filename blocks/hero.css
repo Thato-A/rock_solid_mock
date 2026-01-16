@@ -1,14 +1,34 @@
 .hero {
-  /*background:url(hero-background) */
-  margin: 24px;
-  border-radius: 24px;
-  padding: 100px 0;
+  background: url("../images/hero-background.jpg") center 40% / cover no-repeat;
+  color: #fff;
 }
 
-.hero__title {
-  margin-bottom: 16px;
+.hero__btn {
+  font-weight: 500;
+  transition: background-color 0.25s ease, transform 0.2s ease;
 }
 
-.hero__subtitle {
-  max-width: 480px;
+.hero__btn-left {
+  background-color: #ffffff;
+  color: #111;
+  border: none;
+}
+
+.hero__btn-left:hover {
+  background-color: #f2f2f2;
+  color: #111;
+}
+
+.hero__btn-right {
+  background-color: #554949;
+  color: #fff;
+  border: none;
+}
+
+.hero__btn-right:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.hero__btn:hover {
+  transform: translateY(-2px);
 }

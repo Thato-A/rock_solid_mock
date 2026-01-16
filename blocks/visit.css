@@ -1,5 +1,5 @@
 .visit {
-  background-color: #f7f7f7; /* subtle light gray background */
+  background-color: #f7f7f7;
   font-family: "Arial", sans-serif;
 }
 
@@ -15,9 +15,12 @@
   font-size: 0.9rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  background: rgba(46, 35, 32, 1);
+  border: none;
+  color: #ffffff;
 }
 
 .visit__btn:hover {
-  background-color: #c0392b; /* slightly brighter red on hover */
+  background-color: #c0392b;
   color: white;
 }

@@ -10,7 +10,6 @@
 .mission__container {
   position: relative; /* required for z-index */
   z-index: 2;
-  padding-bottom: 6rem; /* pushes content down for cut-off image effect */
   overflow: hidden; /* hides bottom of image */
 }
 
@@ -23,11 +22,21 @@
 .card__image {
   height: 48px;
   width: auto;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto 1rem; /* center and add spacing below */
+}
+
+.card__paragraph {
+  cursor: pointer;
+}
+
+.text-orange {
+  color: #f45110;
 }
 
 .mission__image-wrapper {
-  margin-top: -3rem; /* pull image up so bottom is cut off */
+  height: 420px; /* controls how much gets cropped */
+}
+
+.mission__image {
+  object-fit: cover;
+  object-position: center top; /* keeps top visible, cuts bottom */
 }
